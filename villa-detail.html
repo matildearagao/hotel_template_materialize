@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotel Materialize</title>
+    <!--Import FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="white valign-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo blue-text">Algarve Villas</a>
+                <a href="#" data-target="menu-mobile" class="sidenav-trigger"><i class="material-icons blue-text">menu</i></a>
+                <ul class="right hide-on-med-and-down ">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="villas">Villas</a></li>
+                    <li><a href="about us">About us</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="#" class="btn round blue waves-effect white-text">+351 999999</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="menu-mobile">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+            <li><a href="collapsible.html">About us</a></li>
+            <li><a href="contact">Mobile</a></li>
+        </ul>
+    </header>
+
+
+    <!-- hero -->
+    <section class="section valign-wrapper hero hero-1">
+        <div class="center-align fullwidth white-text">
+            <h3> ALGARVE BEACH & COUNTRYSIDE VILLAS</h3>
+            <h1>Villa 1</h1>
+        </div>
+    </section>
+
+
+
+
+    <!-- villa detail -->
+
+    <div class=" row center-align">
+        <div class="col s10 offset-s1 m8 offset-m2 z-depth-1 box-info valign-wrapper">
+            <div class="col s12 m4 col-info">
+            <i class="material-icons blue-text">person</i>
+            <div class="black-text uppercase">beach</div>
+            <div>walking distance</div>
+        </div>
+            <div class="col s12 m4 col-info">
+                <div class="col-middle">
+            <i class="material-icons blue-text">person</i>
+            <div class="black-text uppercase">beach</div>
+            <div>walking distance</div>
+        </div>
+        </div>
+            <div class="col s12 m4 col-info">
+            <i class="material-icons blue-text">person</i>
+            <div class="black-text uppercase">beach</div>
+            <div>walking distance</div>
+        </div>
+        </div>
+    </div>
+
+
+    <section class="section container white z-depth-1">
+        <div class="row">
+            <div class="col s12 m8 padding">
+                <h5 class="grey-text">3 BEDROOM VILLA IN GUIA, ALBUFEIRA</h5>
+                <h4 class="blue-text">Fancy a holiday in the Algarve?</h4>
+                <p class="grey-text text-darken-2">
+                    We have three lovely villas to rent from £105 per night near in Galé and Guia, in central Algarve,
+                    perfect for families and groups of friends!
+                </p>
+
+                <a href="#" class="btn blue round">Enquire now</a>
+                <a href="#" class="btn white round blue-text">Rates & Avaiability</a>
+
+            </div>
+            <div class="col s12 m4 blue">
+
+
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container center-align">
+            <i class="material-icons blue-text">beach_access </i>
+            <p><a href="#">Facebook</a></p>
+            <p>Created by <a href="#">Portugal Webdesign</a> @Algarve Beach and Countryside Villas <a href="#">Privacy
+                    Policy</a></p>
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.scrollspy').scrollSpy();
+            $('.slider').slider();
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+            $('.carousel').css({ "height": "100vh" });
+        });
+
+
+    </script>
+</body>
+
+</html>
