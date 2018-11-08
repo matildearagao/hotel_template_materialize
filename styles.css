@@ -305,6 +305,19 @@ nav ul a:hover, :active {
     border-bottom:0;
 }
 
+.flip{  
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+
+
+
+
 /* contact form */
 .contact-form{
     border-top:#2196F3 2px solid;
@@ -365,3 +378,6 @@ nav ul a:hover, :active {
         border-right: 0;
     }
 }
+
+
+
