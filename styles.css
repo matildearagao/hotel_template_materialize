@@ -319,8 +319,37 @@ nav ul a:hover, :active {
         transform: scaleX(-1);
         filter: FlipH;
         -ms-filter: "FlipH";
+        
 }
 
+.btn-a{
+    opacity: 0;
+    top:-20px;
+    transition: opacity 1s transform 1s;
+}
+
+.action-text{
+    transform:translateY(30px);
+    transition: transform .5s;
+}
+/* animations */
+
+.cta:hover .btn-a{
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+
+.cta:hover .flip{
+    transform: scaleX(-1) translateY(20px);
+    opacity: 1;
+
+}
+
+.cta:hover .action-text{
+    transform:translateY(0);
+
+}
 
 
 
