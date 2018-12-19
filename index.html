@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hotel Materialize</title>
+    <title>Villas Theme</title>
     <!--Import FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
@@ -12,59 +12,61 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- - Lightbox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link href="https://uploads-ssl.webflow.com/5b7c3dea8bdf561d0e54de3e/5b97c61dd269016cc10aa25a_FAICON.png" rel="shortcut icon" type="image/x-icon">
-    <link href="https://uploads-ssl.webflow.com/5b7c3dea8bdf561d0e54de3e/5bb23c3365c63c787bf5ed6f_sun-umbrella-(2).png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css">
+    <!-- favicon -->
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="webclip.png" rel="apple-touch-icon">
 </head>
 
 <body>
 
-        <header>
+    <header>
 
-                <nav class="white valign-wrapper">
-                    <div class="container">
-                        <a href="#" class="brand-logo blue-text">Villas</a>
-                        <a href="#" data-target="menu-mobile" class="sidenav-trigger"><i class="material-icons blue-text">menu</i></a>
-                        <ul class="right hide-on-med-and-down ">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="villas.html">Villas</a></li>
-                            <li><a href="about-us.html">About us</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="#" class="btn round blue waves-effect white-text">+351 999999</a></li>
-                        </ul>
-        
-                    </div>
-                </nav>
-        
-                <ul class="sidenav" id="menu-mobile">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="villas.html">Villas</a></li>
-                        <li><a href="about-us.html">About us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+        <nav class="white valign-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo blue-text">Villas</a>
+                <a href="#" data-target="menu-mobile" class="sidenav-trigger"><i class="material-icons blue-text">menu</i></a>
+                <ul class="right hide-on-med-and-down ">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="villas.html">Villas</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="btn round blue waves-effect white-text">+351 999999</a></li>
                 </ul>
-            </header>
+
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="menu-mobile">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="villas.html">Villas</a></li>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
 
 
 
 
-    <!-- home slider -->
-    <div class="carousel carousel-slider center ">
-
-        <div class="carousel-fixed-item center">
+       <!-- home slider -->
+       <div id="carouselHome" class="carousel carousel-slider center parallax-container ">
+        <div class="carousel-fixed-item center parallax">
             <a class="btn waves-effect blue white-text darken-text-2 round">Enquire Now</a>
         </div>
         <div class="carousel-item white-text valign-wrapper slides slide-1" href="#one!">
             <div class="fullwidth">
-                <h3> Titulo</h3>
-                <h1>Algarve holidays Rentals</h1>
-                <p class="white-text">Lovely Villas for holidays in the Algarve!</p>
+                <h3> Materialize Theme</h3>
+                <h1>Villas Theme</h1>
+                <p class="white-text">Theme developed with Materialize</p>
             </div>
         </div>
         <div class="carousel-item white-text valign-wrapper slides slide-2" href="#two!">
             <div class="fullwidth">
-                <h2>Second Panel</h2>
-                <p class="white-text">This is your second panel</p>
+                <h2>Keystone.js and Express</h2>
+                <p class="white-text">Developed with Node.js</p>
             </div>
         </div>
         <div class="carousel-item green white-text valign-wrapper slides slide-3" href="#three!">
@@ -73,14 +75,7 @@
                 <p class="white-text">This is your third panel</p>
             </div>
         </div>
-        <div class="carousel-item blue white-text valign-wrapper slides slide-4" href="#four!">
-            <div class="fullwidth">
-                <h2>Fourth Panel</h2>
-                <p class="white-text">This is your fourth panel</p>
-            </div>
-        </div>
     </div>
-
 
 
 
@@ -96,15 +91,15 @@
 
         <!-- cards -->
         <div class="row">
-            <div class="col s12 m4">
+            <div class="col s12 l4">
                 <a href="villa-detail.html">
                     <div class="card">
                         <div class="card-image">
-                            <img src="img/pool-2-email.jpg" alt="">
+                            <img src="/img/villa.jpg" alt="villa 1">
                         </div>
                         <div class="card-content grey-text">
                             <h3 class="blue-text"> Villa 1</h3>
-                            
+
                             <p>Waves is an external library that we've included in Materialize to allow us to create
                                 the
                                 ink effect outlined in Material Design. </p>
@@ -119,7 +114,7 @@
                 <a href="villa-detail.html">
                     <div class="card">
                         <div class="card-image">
-                            <img src="img/pool-2-email.jpg" alt="">
+                            <img src="/img/villa2.jpg" alt="villa 2">
                         </div>
                         <div class="card-content grey-text">
                             <h3 class="blue-text"> Villa 2 </h3>
@@ -137,7 +132,7 @@
                 <a href="villa-detail.html">
                     <div class="card">
                         <div class="card-image">
-                            <img src="img/pool-2-email.jpg" alt="">
+                            <img src="/img/villa3.jpg" alt="villa 3">
                         </div>
                         <div class="card-content grey-text">
                             <h3 class="blue-text"> Villa 3</h3>
@@ -154,27 +149,23 @@
         </div>
     </section>
 
-    <!-- services -->
-    <section class="section blue darken-2">
-
+     <!-- services -->
+     <section class="section blue darken-2 ">
         <div class="center-align white-text title-header">
-            <h3>Algarve villas</h3>
-            <h2>Collections</h2>
+            <h3>villas Theme</h3>
+            <h2>Our Services</h2>
         </div>
 
-        <div class="row services">
-
-
+        <div class="row services ">
             <div class=" col s12 offset-m1 m10 l6">
                 <div class="service">
                     <div class="service-color-line"></div>
                     <div class="service-icon">
-                        <i class="medium material-icons">person</i>
+                        <i class="small material-icons">filter_vintage</i>
                     </div>
                     <div class="service-text">
-                        <h6>servico de limpeza</h6>
-                        <p>Two of our villas are located just 50 meters from Galé and Salgados Beaches, and the other
-                            just 10 minutes walk to the highly known village of Guia, and 5km to the beaches.</p>
+                        <h6>Service One</h6>
+                        <p>Integer convallis nibh quis tincidunt hendrerit. Pellentesque scelerisque ultrices sollicitudin. Curabitur interdum volutpat massa et commodo. </p>
                     </div>
                 </div>
             </div>
@@ -183,12 +174,11 @@
                 <div class="service">
                     <div class="service-color-line"></div>
                     <div class="service-icon">
-                        <i class="medium material-icons">person</i>
+                        <i class="small material-icons">filter_vintage</i>
                     </div>
                     <div class="service-text">
-                        <h6>servico de limpeza</h6>
-                        <p>Two of our villas are located just 50 meters from Galé and Salgados Beaches, and the other
-                            just 10 minutes walk to the highly known village of Guia, and 5km to the beaches.</p>
+                        <h6>Service Two</h6>
+                        <p>Integer convallis nibh quis tincidunt hendrerit. Pellentesque scelerisque ultrices sollicitudin. Curabitur interdum volutpat massa et commodo. </p>
                     </div>
                 </div>
             </div>
@@ -198,40 +188,35 @@
 
                     <div class="service-color-line"></div>
                     <div class="service-icon">
-                        <i class="medium material-icons">person</i>
+                        <i class="small material-icons">filter_vintage</i>
                     </div>
                     <div class="service-text">
-                        <h6>servico de limpeza</h6>
-                        <p>Two of our villas are located just 50 meters from Galé and Salgados Beaches, and the other
-                            just
-                            10 minutes walk to the highly known village of Guia, and 5km to the beaches.</p>
+                        <h6>Service Three</h6>
+                        <p>Integer convallis nibh quis tincidunt hendrerit. Pellentesque scelerisque ultrices sollicitudin. Curabitur interdum volutpat massa et commodo. </p>
                     </div>
                 </div>
             </div>
 
             <div class="col s12 offset-m1 m10 l6 ">
                 <div class="service valign-wrapper">
-
                     <div class="service-color-line"></div>
                     <div class="service-icon">
-                        <i class="medium material-icons">person</i>
+                        <i class="small material-icons">filter_vintage</i>
                     </div>
                     <div class="service-text">
-                        <h6>servico de limpeza</h6>
-                        <p>Two of our villas are located just 50 meters from Galé and Salgados Beaches, and the other
-                            just
-                            10 minutes walk to the highly known village of Guia, and 5km to the beaches.</p>
+                        <h6>Service Four</h6>
+                        <p>Integer convallis nibh quis tincidunt hendrerit. Pellentesque scelerisque ultrices sollicitudin. Curabitur interdum volutpat massa et commodo.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- pre-footer -->
+      <!-- pre-footer -->
 
-    <section class="section blue darken-3 row no-padding">
+      <section class="section blue darken-3 row no-padding">
         <div class="col s12 l6 cta-left">
-            <a href="contact.html">
+            <a href="contact">
                 <div class="cta center-align valign-wrapper">
                     <div class="fullwidth">
                         <div class="action-text">
@@ -244,11 +229,11 @@
             </a>
         </div>
         <div class="col s12 l6 cta-right">
-            <a href="about-us.html">
+            <a href="about">
                 <div class="cta center-align valign-wrapper">
                     <div class="fullwidth">
                             <div class="action-text">
-                        <h4 class="blue-grey-text text-lighten-5">Algarve Beach & Countryside Beach</h4>
+                        <h4 class="blue-grey-text text-lighten-5">Villas Theme</h4>
                         <h5 class="white-text">Learn More</h5>
                     </div>
 
@@ -266,30 +251,45 @@
     <footer>
         <div class="container center-align">
             <div class="wrapper-box">
-                <i class="material-icons blue-text">beach_access </i>
+                <i class="material-icons blue-text">filter_vintage</i>
                 <p><a href="#">Facebook</a></p>
-                <p>Created by <a href="#">Portugal Webdesign</a> @Algarve Beach and Countryside Villas <a href="#">Privacy
-                        Policy</a></p>
+                <p>Created by <a href="https://www.mashdesign.pt/">MashDesign</a> @Villas Theme with Materialize</p>
             </div>
         </div>
 
     </footer>
 
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.js"></script>
+
     <script>
         $(document).ready(function () {
-            $('.sidenav').sidenav();
-            $('.scrollspy').scrollSpy();
-            $('.slider').slider();
-            $('.carousel.carousel-slider').carousel({
-                fullWidth: true,
-                indicators: true
-            });
-            $('.carousel').css({ "height": "100vh" });
-        });
+			$('.sidenav').sidenav();
+			$('.scrollspy').scrollSpy();
+			$('.slider').slider();
+			$('#carouselHome.carousel-slider').carousel({
+				fullWidth: true,
+				indicators: true
+			});
+			$('#carouselTestemonials').carousel({
+				indicators: true,
+			});
+			$('#carouselHome').css({ "height": "100vh" });
+			$('#carouselAbout').carousel({
+				fullWidth: false,
+				indicators: true,
+			});
+			autoplay();
+			function autoplay() {
+				$('#carouselAbout').carousel('next');
+				setTimeout(autoplay, 3000);
+			};
+			$('.parallax').parallax();
 
 
+		});
     </script>
 </body>
 
